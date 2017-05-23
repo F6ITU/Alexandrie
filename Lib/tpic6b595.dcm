@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TPIC6B595
-D 8 bit shift register
-K shift register
-$ENDCMP
-#
-#End Doc Library
