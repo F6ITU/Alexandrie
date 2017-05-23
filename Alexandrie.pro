@@ -1,4 +1,4 @@
-update=23/05/2017 08:18:02
+update=23/05/2017 10:04:12
 version=1
 last_client=kicad
 [pcbnew]
@@ -35,3 +35,13 @@ LibName3=conn
 LibName4=regul
 LibName5=74xx
 LibName6=Lib/tpic6b595
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
