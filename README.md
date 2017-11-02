@@ -6,7 +6,7 @@ This work is protected by the TAPR Open Hardware Licence https://www.tapr.org/oh
 Original work by Graham Haddock, KE9H and Phil Harman, VK6APH.
 
 This board supports the I2S "Alexiares" protocol (also called "J16") of 
-the original Hermes SDR board designe by the OpenHPSDR group.
+the original Hermes SDR board designed by the OpenHPSDR group.
 
 As Alexiares was not sold anymore by the TAPR, a new and more "modular" 
 design was needed by many hams wishing to play with OpenHPSDR plateforms
@@ -15,20 +15,31 @@ supporting Pavel Denim's firmware... )
 
 Alexandrie is only needed by people using an original 
 Hermes Board or a Red Pitaya (via the I2S output)
-A specific replacement board (Alexi2C) has been design for
+
+A specific replacement board (Alexi2C) has been design for 
+
  Hermes-Lite users (decimal output from FPGA)
  Red Pitaya owners using the I2C output
 
 3D image of the board are stored on this repo
+
 Alexandrie dwn.jpg
+
 Alexandrie up.jpg
+
 
 Board's dimensions are oversized to fit the 5x10 and 10x10cm 
 size of all board of the Hermes project under Kicad: 
+
 AlexI2C
+
 Alexandrie (this one)
+
 Alexiares_Coax_Out
+
 Alexiares_HPF
+
 Alexiares_LPF
+
 Mentor
 
