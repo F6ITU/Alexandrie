@@ -1,4 +1,7 @@
 # Alexandrie
+
+Kicad files
+
 Control board for Alexiares filter set
 
 This work is protected by the TAPR Open Hardware Licence https://www.tapr.org/ohl.html
