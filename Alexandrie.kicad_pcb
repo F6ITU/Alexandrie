@@ -3,7 +3,7 @@
   (general
     (links 162)
     (no_connects 0)
-    (area 88.924999 42.924999 189.075001 143.075001)
+    (area 86.0088 42.525 191.21726 143.575)
     (thickness 1.6)
     (drawings 27)
     (tracks 922)
@@ -68,7 +68,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFF7FF)
     (pcbplotparams
-      (layerselection 0x011fc_80000001)
+      (layerselection 0x010f0_80000001)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -91,7 +91,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../../../../Desktop/Gerber_Alexandrie/))
+      (outputdirectory Gerber/))
   )
 
   (net 0 "")
