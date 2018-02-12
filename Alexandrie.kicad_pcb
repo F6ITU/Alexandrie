@@ -11052,12 +11052,12 @@
     )
   )
 
-  (module Mounting_Holes:MountingHole_3.5mm_Pad (layer F.Cu) (tedit 597C4040) (tstamp 5936F0AF)
+  (module Mounting_Holes:MountingHole_3.5mm_Pad (layer F.Cu) (tedit 5A81E256) (tstamp 5936F0AF)
     (at 184 48)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (path /592BBEFC)
-    (fp_text reference TP1 (at 0 -4.5) (layer F.SilkS)
+    (fp_text reference TP1 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TEST (at 0 4.5) (layer F.Fab)
@@ -11069,12 +11069,12 @@
       (net 2 GND))
   )
 
-  (module Mounting_Holes:MountingHole_3.5mm_Pad (layer F.Cu) (tedit 597C4053) (tstamp 5936F0B6)
+  (module Mounting_Holes:MountingHole_3.5mm_Pad (layer F.Cu) (tedit 5A81E240) (tstamp 5936F0B6)
     (at 94 138)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (path /592BBFC7)
-    (fp_text reference TP2 (at 0 -4.5) (layer F.SilkS)
+    (fp_text reference TP2 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TEST (at 0 4.5) (layer F.Fab)
@@ -11086,12 +11086,12 @@
       (net 2 GND))
   )
 
-  (module Mounting_Holes:MountingHole_3.5mm_Pad (layer F.Cu) (tedit 597C402C) (tstamp 5936F0BD)
+  (module Mounting_Holes:MountingHole_3.5mm_Pad (layer F.Cu) (tedit 5A81E24D) (tstamp 5936F0BD)
     (at 94 48)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (path /592E5FB7)
-    (fp_text reference TP3 (at 0 -4.5) (layer F.SilkS)
+    (fp_text reference TP3 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TEST (at 0 4.5) (layer F.Fab)
@@ -11103,15 +11103,15 @@
       (net 2 GND))
   )
 
-  (module Mounting_Holes:MountingHole_3.5mm_Pad (layer F.Cu) (tedit 597C404B) (tstamp 5936F0C4)
+  (module Mounting_Holes:MountingHole_3.5mm_Pad (layer F.Cu) (tedit 5A81E238) (tstamp 5936F0C4)
     (at 184 138)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (path /592E5FBD)
-    (fp_text reference TP4 (at 0 -4.5) (layer F.SilkS)
+    (fp_text reference TP4 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TEST (at 0 4.5) (layer F.Fab)
+    (fp_text value TEST (at 0 4.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3.5 0) (layer Cmts.User) (width 0.15))
@@ -14212,6 +14212,66 @@
         (xy 108.435162 64.314833) (xy 108.293117 63.971057) (xy 108.030327 63.707808) (xy 107.686799 63.565162) (xy 107.500001 63.564999)
         (xy 107.499999 63.564999) (xy 107.314833 63.564838) (xy 106.971057 63.706883) (xy 106.922856 63.755) (xy 93.469839 63.755)
         (xy 93.43454 63.702172) (xy 93.012241 63.42) (xy 93.43454 63.137828) (xy 93.469839 63.085) (xy 108.65992 63.085)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Mask) (tstamp 5A81E2D5) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 189 45) (xy 89 45) (xy 89 43) (xy 189 43)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 188.873 44.873) (xy 89.127 44.873) (xy 89.127 43.127) (xy 188.873 43.127)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Mask) (tstamp 5A81E30B) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 189 143) (xy 89 143) (xy 89 141) (xy 189 141)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 188.873 142.873) (xy 89.127 142.873) (xy 89.127 141.127) (xy 188.873 141.127)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer B.Mask) (tstamp 5A81E326) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 189 143) (xy 89 143) (xy 89 141) (xy 189 141)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 188.873 142.873) (xy 89.127 142.873) (xy 89.127 141.127) (xy 188.873 141.127)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer B.Mask) (tstamp 5A81E337) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 189 45) (xy 89 45) (xy 89 43) (xy 189 43)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 188.873 44.873) (xy 89.127 44.873) (xy 89.127 43.127) (xy 188.873 43.127)
       )
     )
   )
