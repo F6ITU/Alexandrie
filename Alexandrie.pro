@@ -1,4 +1,4 @@
-update=10/01/2018 19:42:08
+update=03/03/2018 10:45:57
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,18 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=Alexandrie-rescue
-LibName2=power
-LibName3=device
-LibName4=conn
-LibName5=regul
-LibName6=74xx
-LibName7=Lib/Regulateurs/7805d-pack
-LibName8=Lib/Logic/tpic6b595
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -47,3 +35,14 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=39
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=Alexandrie-rescue
+LibName2=Lib/Regulateurs/7805d-pack
+LibName3=Lib/Logic/tpic6b595
+LibName4=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Connector_Generic
+LibName5=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Device
+LibName6=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/power
+LibName7=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Regulator_Linear
