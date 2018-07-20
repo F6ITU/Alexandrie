@@ -1,12 +1,11 @@
 EESchema Schematic File Version 2
 LIBS:Alexandrie-rescue
-LIBS:power
-LIBS:device
-LIBS:conn
-LIBS:regul
-LIBS:74xx
 LIBS:7805d-pack
 LIBS:tpic6b595
+LIBS:Connector_Generic
+LIBS:Device
+LIBS:power
+LIBS:Regulator_Linear
 LIBS:Alexandrie-cache
 EELAYER 25 0
 EELAYER END
@@ -954,7 +953,7 @@ F 1 "10u" V 7650 5450 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Hand" H 7750 5500 50  0001 C CNN
 F 3 "" H 7750 5500 50  0001 C CNN
 	1    7750 5500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L C_Small C18
@@ -976,7 +975,7 @@ F 1 "10u" V 7650 4400 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Hand" H 7750 4450 50  0001 C CNN
 F 3 "" H 7750 4450 50  0001 C CNN
 	1    7750 4450
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L C_Small C16
@@ -2068,4 +2067,12 @@ F 3 "" H 10650 3000 50  0001 C CNN
 	1    10650 3000
 	1    0    0    1   
 $EndComp
+Text Notes 5700 3100 0    100  ~ 20
+rouge
+Text Notes 5700 1400 0    100  ~ 20
+jaune\n
+Text Notes 5300 4400 1    100  ~ 20
+Jaune
+Text Notes 6550 5800 1    100  ~ 20
+rouge\n
 $EndSCHEMATC
