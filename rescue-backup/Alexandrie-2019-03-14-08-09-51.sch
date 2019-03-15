@@ -1,6 +1,13 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:Alexandrie-rescue
+LIBS:7805d-pack
+LIBS:tpic6b595
+LIBS:Connector_Generic
+LIBS:Device
+LIBS:power
+LIBS:Regulator_Linear
 LIBS:Alexandrie-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +22,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Alexandrie-rescue:CONN_01X10 J1
+L CONN_01X10 J1
 U 1 1 59232B45
 P 850 1150
 F 0 "J1" H 850 1700 50  0000 C CNN
@@ -26,7 +33,7 @@ F 3 "" H 850 1150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:CONN_01X05 J2
+L CONN_01X05 J2
 U 1 1 59232E22
 P 3500 1400
 F 0 "J2" H 3500 1700 50  0000 C CNN
@@ -37,7 +44,7 @@ F 3 "" H 3500 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:74HCT04 U1
+L 74HCT04 U1
 U 1 1 5923C0AC
 P 2600 1900
 F 0 "U1" H 2750 2000 50  0000 C CNN
@@ -48,7 +55,7 @@ F 3 "" H 2600 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:74HCT04 U1
+L 74HCT04 U1
 U 2 1 5923C1E6
 P 2600 2250
 F 0 "U1" H 2750 2350 50  0000 C CNN
@@ -59,7 +66,7 @@ F 3 "" H 2600 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:74HCT04 U1
+L 74HCT04 U1
 U 4 1 5923C213
 P 2600 3050
 F 0 "U1" H 2750 3150 50  0000 C CNN
@@ -70,7 +77,7 @@ F 3 "" H 2600 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:74HCT04 U1
+L 74HCT04 U1
 U 5 1 5923C250
 P 2600 3400
 F 0 "U1" H 2750 3500 50  0000 C CNN
@@ -81,7 +88,7 @@ F 3 "" H 2600 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:74HCT04 U1
+L 74HCT04 U1
 U 6 1 5923C28B
 P 2600 3750
 F 0 "U1" H 2750 3850 50  0000 C CNN
@@ -92,7 +99,7 @@ F 3 "" H 2600 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:R R3
+L R R3
 U 1 1 5923C61B
 P 1300 2050
 F 0 "R3" V 1380 2050 50  0000 C CNN
@@ -103,7 +110,7 @@ F 3 "" H 1300 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:R R4
+L R R4
 U 1 1 5923C65C
 P 1300 2400
 F 0 "R4" V 1380 2400 50  0000 C CNN
@@ -114,7 +121,7 @@ F 3 "" H 1300 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:R R1
+L R R1
 U 1 1 5923C695
 P 1150 2400
 F 0 "R1" V 1230 2400 50  0000 C CNN
@@ -125,7 +132,7 @@ F 3 "" H 1150 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:74HCT04 U1
+L 74HCT04 U1
 U 3 1 5923C75A
 P 2600 2650
 F 0 "U1" H 2750 2750 50  0000 C CNN
@@ -137,7 +144,7 @@ F 3 "" H 2600 2650 50  0001 C CNN
 $EndComp
 NoConn ~ 1050 1400
 $Comp
-L Alexandrie-rescue:GND #PWR01
+L GND #PWR01
 U 1 1 5923D075
 P 1050 1650
 F 0 "#PWR01" H 1050 1400 50  0001 C CNN
@@ -148,7 +155,7 @@ F 3 "" H 1050 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR02
+L GND #PWR02
 U 1 1 5923D153
 P 8850 1050
 F 0 "#PWR02" H 8850 800 50  0001 C CNN
@@ -159,7 +166,7 @@ F 3 "" H 8850 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR03
+L GND #PWR03
 U 1 1 5923D169
 P 1900 800
 F 0 "#PWR03" H 1900 550 50  0001 C CNN
@@ -199,7 +206,7 @@ REFL_PWR\n
 Text Notes 650  1600 0    39   ~ 0
 GND\n
 $Comp
-L Alexandrie-rescue:+12V #PWR04
+L +12V #PWR04
 U 1 1 5923DF48
 P 2000 1000
 F 0 "#PWR04" H 2000 850 50  0001 C CNN
@@ -212,7 +219,7 @@ $EndComp
 Text GLabel 2100 800  3    39   Input ~ 0
 TX_RX_RLY
 $Comp
-L Alexandrie-rescue:GND #PWR05
+L GND #PWR05
 U 1 1 5923FA50
 P 2550 4050
 F 0 "#PWR05" H 2550 3800 50  0001 C CNN
@@ -223,7 +230,7 @@ F 3 "" H 2550 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:+5V #PWR06
+L +5V #PWR06
 U 1 1 5923FEE6
 P 2550 1650
 F 0 "#PWR06" H 2550 1500 50  0001 C CNN
@@ -234,7 +241,7 @@ F 3 "" H 2550 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:C C1
+L C C1
 U 1 1 5923FF1E
 P 2300 1700
 F 0 "C1" H 2325 1800 50  0000 L CNN
@@ -245,7 +252,7 @@ F 3 "" H 2300 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR07
+L GND #PWR07
 U 1 1 592400F1
 P 2100 1700
 F 0 "#PWR07" H 2100 1450 50  0001 C CNN
@@ -260,7 +267,7 @@ SPI_SPL_Data
 Text GLabel 1300 2650 0    39   Input ~ 0
 SPI_SPL_CLK
 $Comp
-L Alexandrie-rescue:R R5
+L R R5
 U 1 1 592418F8
 P 1300 4850
 F 0 "R5" V 1380 4850 50  0000 C CNN
@@ -271,7 +278,7 @@ F 3 "" H 1300 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:R R6
+L R R6
 U 1 1 592418FE
 P 1300 5200
 F 0 "R6" V 1380 5200 50  0000 C CNN
@@ -282,7 +289,7 @@ F 3 "" H 1300 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR08
+L GND #PWR08
 U 1 1 5924191C
 P 2550 6850
 F 0 "#PWR08" H 2550 6600 50  0001 C CNN
@@ -293,7 +300,7 @@ F 3 "" H 2550 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:+5V #PWR09
+L +5V #PWR09
 U 1 1 59241922
 P 2550 4450
 F 0 "#PWR09" H 2550 4300 50  0001 C CNN
@@ -304,7 +311,7 @@ F 3 "" H 2550 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:C C2
+L C C2
 U 1 1 59241928
 P 2300 4500
 F 0 "C2" H 2325 4600 50  0000 L CNN
@@ -315,7 +322,7 @@ F 3 "" H 2300 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR010
+L GND #PWR010
 U 1 1 5924192E
 P 2100 4500
 F 0 "#PWR010" H 2100 4250 50  0001 C CNN
@@ -328,7 +335,7 @@ $EndComp
 Text GLabel 1300 5450 0    39   Input ~ 0
 SPI_SPL_CLK
 $Comp
-L Alexandrie-rescue:R R2
+L R R2
 U 1 1 592428CD
 P 1150 5200
 F 0 "R2" V 1230 5200 50  0000 C CNN
@@ -339,7 +346,7 @@ F 3 "" H 1150 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:+5V #PWR011
+L +5V #PWR011
 U 1 1 59242994
 P 1150 5000
 F 0 "#PWR011" H 1150 4850 50  0001 C CNN
@@ -350,7 +357,7 @@ F 3 "" H 1150 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:74HCT04 U2
+L 74HCT04 U2
 U 1 1 592435F8
 P 2600 4700
 F 0 "U2" H 2750 4800 50  0000 C CNN
@@ -361,7 +368,7 @@ F 3 "" H 2600 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:74HCT04 U2
+L 74HCT04 U2
 U 2 1 59256D60
 P 2600 5050
 F 0 "U2" H 2750 5150 50  0000 C CNN
@@ -372,7 +379,7 @@ F 3 "" H 2600 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:74HCT04 U2
+L 74HCT04 U2
 U 3 1 59243872
 P 2600 5450
 F 0 "U2" H 2750 5550 50  0000 C CNN
@@ -383,7 +390,7 @@ F 3 "" H 2600 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:74HCT04 U2
+L 74HCT04 U2
 U 4 1 59243A4B
 P 2600 5850
 F 0 "U2" H 2750 5950 50  0000 C CNN
@@ -394,7 +401,7 @@ F 3 "" H 2600 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:74HCT04 U2
+L 74HCT04 U2
 U 5 1 59243AB2
 P 2600 6200
 F 0 "U2" H 2750 6300 50  0000 C CNN
@@ -405,7 +412,7 @@ F 3 "" H 2600 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:74HCT04 U2
+L 74HCT04 U2
 U 6 1 59243B25
 P 2600 6550
 F 0 "U2" H 2750 6650 50  0000 C CNN
@@ -433,7 +440,7 @@ Text GLabel 6400 4950 2    39   Input ~ 0
 HPF_ByPass
 NoConn ~ 5000 5250
 $Comp
-L Alexandrie-rescue:GND #PWR012
+L GND #PWR012
 U 1 1 59245447
 P 4450 5400
 F 0 "#PWR012" H 4450 5150 50  0001 C CNN
@@ -444,7 +451,7 @@ F 3 "" H 4450 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR013
+L GND #PWR013
 U 1 1 59245453
 P 5700 5400
 F 0 "#PWR013" H 5700 5150 50  0001 C CNN
@@ -455,7 +462,7 @@ F 3 "" H 5700 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:+5V #PWR014
+L +5V #PWR014
 U 1 1 59245460
 P 4500 4300
 F 0 "#PWR014" H 4500 4150 50  0001 C CNN
@@ -466,7 +473,7 @@ F 3 "" H 4500 4300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:C C4
+L C C4
 U 1 1 59245466
 P 4750 4350
 F 0 "C4" H 4775 4450 50  0000 L CNN
@@ -477,7 +484,7 @@ F 3 "" H 4750 4350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR015
+L GND #PWR015
 U 1 1 5924546C
 P 4950 4350
 F 0 "#PWR015" H 4950 4100 50  0001 C CNN
@@ -488,7 +495,7 @@ F 3 "" H 4950 4350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:+5V #PWR016
+L +5V #PWR016
 U 1 1 59245476
 P 5750 4250
 F 0 "#PWR016" H 5750 4100 50  0001 C CNN
@@ -499,7 +506,7 @@ F 3 "" H 5750 4250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:C C7
+L C C7
 U 1 1 5924547C
 P 6000 4350
 F 0 "C7" H 6025 4450 50  0000 L CNN
@@ -510,7 +517,7 @@ F 3 "" H 6000 4350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR017
+L GND #PWR017
 U 1 1 59245482
 P 6200 4350
 F 0 "#PWR017" H 6200 4100 50  0001 C CNN
@@ -521,7 +528,7 @@ F 3 "" H 6200 4350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR018
+L GND #PWR018
 U 1 1 5924548B
 P 4450 4650
 F 0 "#PWR018" H 4450 4400 50  0001 C CNN
@@ -532,7 +539,7 @@ F 3 "" H 4450 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR019
+L GND #PWR019
 U 1 1 59245491
 P 5700 4650
 F 0 "#PWR019" H 5700 4400 50  0001 C CNN
@@ -543,7 +550,7 @@ F 3 "" H 5700 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:LED D1
+L LED D1
 U 1 1 592454A2
 P 5200 4550
 F 0 "D1" H 5350 4450 50  0000 C CNN
@@ -554,7 +561,7 @@ F 3 "" H 5200 4550 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Alexandrie-rescue:R R8
+L R R8
 U 1 1 592454A8
 P 5450 4400
 F 0 "R8" V 5530 4400 50  0000 C CNN
@@ -565,7 +572,7 @@ F 3 "" H 5450 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:LED D5
+L LED D5
 U 1 1 592454B1
 P 6450 5250
 F 0 "D5" H 6450 5350 50  0000 C CNN
@@ -576,7 +583,7 @@ F 3 "" H 6450 5250 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Alexandrie-rescue:R R12
+L R R12
 U 1 1 592454B7
 P 6750 5100
 F 0 "R12" V 6830 5100 50  0000 C CNN
@@ -601,7 +608,7 @@ Text GLabel 10400 4800 0    39   Input ~ 0
 Text GLabel 10400 4900 0    39   Input ~ 0
 1.5HPF
 $Comp
-L Alexandrie-rescue:CONN_01X10 J8
+L CONN_01X10 J8
 U 1 1 5924C6BB
 P 10650 2000
 F 0 "J8" H 10650 2550 50  0000 C CNN
@@ -632,7 +639,7 @@ Text Notes 10750 4600 0    39   ~ 0
 Text Notes 10750 4500 0    39   ~ 0
 20_HPF\n
 $Comp
-L Alexandrie-rescue:+12V #PWR020
+L +12V #PWR020
 U 1 1 5924E724
 P 10400 5300
 F 0 "#PWR020" H 10400 5150 50  0001 C CNN
@@ -643,7 +650,7 @@ F 3 "" H 10400 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR021
+L GND #PWR021
 U 1 1 5924E72A
 P 10400 5400
 F 0 "#PWR021" H 10400 5150 50  0001 C CNN
@@ -688,7 +695,7 @@ Text GLabel 10350 2050 0    39   Input ~ 0
 Text GLabel 10350 2150 0    39   Input ~ 0
 6m_Bypass
 $Comp
-L Alexandrie-rescue:+12V #PWR022
+L +12V #PWR022
 U 1 1 59253D09
 P 10350 2350
 F 0 "#PWR022" H 10350 2200 50  0001 C CNN
@@ -699,7 +706,7 @@ F 3 "" H 10350 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR023
+L GND #PWR023
 U 1 1 59253D0F
 P 10350 2450
 F 0 "#PWR023" H 10350 2200 50  0001 C CNN
@@ -722,7 +729,7 @@ Text GLabel 5250 3200 2    39   Input ~ 0
 Text GLabel 5250 3100 2    39   Input ~ 0
 12/10m
 $Comp
-L Alexandrie-rescue:+5V #PWR024
+L +5V #PWR024
 U 1 1 5925AC51
 P 4550 2250
 F 0 "#PWR024" H 4550 2100 50  0001 C CNN
@@ -733,7 +740,7 @@ F 3 "" H 4550 2250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:C C6
+L C C6
 U 1 1 5925AC57
 P 4800 2300
 F 0 "C6" H 4825 2400 50  0000 L CNN
@@ -744,7 +751,7 @@ F 3 "" H 4800 2300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR025
+L GND #PWR025
 U 1 1 5925AC5D
 P 5000 2300
 F 0 "#PWR025" H 5000 2050 50  0001 C CNN
@@ -755,7 +762,7 @@ F 3 "" H 5000 2300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:+5V #PWR026
+L +5V #PWR026
 U 1 1 5925AF44
 P 4200 950
 F 0 "#PWR026" H 4200 800 50  0001 C CNN
@@ -774,7 +781,7 @@ Ant_3\n
 Text GLabel 5300 2800 2    39   Input ~ 0
 TX_RX_RLY
 $Comp
-L Alexandrie-rescue:LED D4
+L LED D4
 U 1 1 5925FA9C
 P 5600 2900
 F 0 "D4" H 5750 2950 50  0000 C CNN
@@ -785,7 +792,7 @@ F 3 "" H 5600 2900 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Alexandrie-rescue:R R11
+L R R11
 U 1 1 5925FAA2
 P 5900 2750
 F 0 "R11" V 5980 2750 50  0000 C CNN
@@ -796,7 +803,7 @@ F 3 "" H 5900 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:+5V #PWR027
+L +5V #PWR027
 U 1 1 5925FAE2
 P 5900 2550
 F 0 "#PWR027" H 5900 2400 50  0001 C CNN
@@ -807,7 +814,7 @@ F 3 "" H 5900 2550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:LED D3
+L LED D3
 U 1 1 5926053F
 P 5600 1250
 F 0 "D3" H 5600 1350 50  0000 C CNN
@@ -818,7 +825,7 @@ F 3 "" H 5600 1250 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Alexandrie-rescue:R R10
+L R R10
 U 1 1 59260545
 P 5900 1100
 F 0 "R10" V 5980 1100 50  0000 C CNN
@@ -829,7 +836,7 @@ F 3 "" H 5900 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:+5V #PWR028
+L +5V #PWR028
 U 1 1 5926054C
 P 5900 900
 F 0 "#PWR028" H 5900 750 50  0001 C CNN
@@ -840,7 +847,7 @@ F 3 "" H 5900 900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR029
+L GND #PWR029
 U 1 1 592683C6
 P 4450 1800
 F 0 "#PWR029" H 4450 1550 50  0001 C CNN
@@ -851,7 +858,7 @@ F 3 "" H 4450 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR030
+L GND #PWR030
 U 1 1 5926970B
 P 4500 3350
 F 0 "#PWR030" H 4500 3100 50  0001 C CNN
@@ -862,7 +869,7 @@ F 3 "" H 4500 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR031
+L GND #PWR031
 U 1 1 5926C360
 P 4500 2600
 F 0 "#PWR031" H 4500 2350 50  0001 C CNN
@@ -873,7 +880,7 @@ F 3 "" H 4500 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR032
+L GND #PWR032
 U 1 1 5926CBB2
 P 4450 1050
 F 0 "#PWR032" H 4450 800 50  0001 C CNN
@@ -884,7 +891,7 @@ F 3 "" H 4450 1050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:+5V #PWR033
+L +5V #PWR033
 U 1 1 5927010D
 P 4500 2800
 F 0 "#PWR033" H 4500 2650 50  0001 C CNN
@@ -895,7 +902,7 @@ F 3 "" H 4500 2800 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:+5V #PWR034
+L +5V #PWR034
 U 1 1 592705B9
 P 4450 1250
 F 0 "#PWR034" H 4450 1100 50  0001 C CNN
@@ -916,7 +923,7 @@ Ser_In
 NoConn ~ 5000 950 
 NoConn ~ 5000 1050
 $Comp
-L Alexandrie-rescue:R R7
+L R R7
 U 1 1 59281EFA
 P 3700 950
 F 0 "R7" V 3780 950 50  0000 C CNN
@@ -927,7 +934,7 @@ F 3 "" H 3700 950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:PWR_FLAG #FLG035
+L PWR_FLAG #FLG035
 U 1 1 59284CC4
 P 8850 1000
 F 0 "#FLG035" H 8850 1075 50  0001 C CNN
@@ -938,7 +945,7 @@ F 3 "" H 8850 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:CP_Small C19
+L CP_Small C19
 U 1 1 59248938
 P 7750 5500
 F 0 "C19" H 7700 6000 50  0000 L CNN
@@ -949,7 +956,7 @@ F 3 "" H 7750 5500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Alexandrie-rescue:C_Small C18
+L C_Small C18
 U 1 1 5924893E
 P 7750 5300
 F 0 "C18" H 7700 5800 50  0000 L CNN
@@ -960,7 +967,7 @@ F 3 "" H 7750 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:CP_Small C17
+L CP_Small C17
 U 1 1 59248944
 P 7750 4450
 F 0 "C17" H 7760 4520 50  0000 L CNN
@@ -971,7 +978,7 @@ F 3 "" H 7750 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Alexandrie-rescue:C_Small C16
+L C_Small C16
 U 1 1 5924894A
 P 7750 4250
 F 0 "C16" H 7760 4320 50  0000 L CNN
@@ -982,7 +989,7 @@ F 3 "" H 7750 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:C_Small C20
+L C_Small C20
 U 1 1 59248950
 P 7750 5700
 F 0 "C20" H 7760 5770 50  0000 L CNN
@@ -993,7 +1000,7 @@ F 3 "" H 7750 5700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR036
+L GND #PWR036
 U 1 1 59248956
 P 7900 4250
 F 0 "#PWR036" H 7900 4000 50  0001 C CNN
@@ -1004,7 +1011,7 @@ F 3 "" H 7900 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR037
+L GND #PWR037
 U 1 1 5924895C
 P 7900 5300
 F 0 "#PWR037" H 7900 5050 50  0001 C CNN
@@ -1015,7 +1022,7 @@ F 3 "" H 7900 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR038
+L GND #PWR038
 U 1 1 59248962
 P 7900 5500
 F 0 "#PWR038" H 7900 5250 50  0001 C CNN
@@ -1026,7 +1033,7 @@ F 3 "" H 7900 5500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR039
+L GND #PWR039
 U 1 1 59248968
 P 7900 5700
 F 0 "#PWR039" H 7900 5450 50  0001 C CNN
@@ -1037,7 +1044,7 @@ F 3 "" H 7900 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR040
+L GND #PWR040
 U 1 1 5924896E
 P 8000 4900
 F 0 "#PWR040" H 8000 4650 50  0001 C CNN
@@ -1048,7 +1055,7 @@ F 3 "" H 8000 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR041
+L GND #PWR041
 U 1 1 59248974
 P 7400 4900
 F 0 "#PWR041" H 7400 4650 50  0001 C CNN
@@ -1059,7 +1066,7 @@ F 3 "" H 7400 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR042
+L GND #PWR042
 U 1 1 5924897A
 P 7900 4450
 F 0 "#PWR042" H 7900 4200 50  0001 C CNN
@@ -1072,7 +1079,7 @@ $EndComp
 Text Notes 7600 4400 1    60   ~ 0
 12V\n
 $Comp
-L Alexandrie-rescue:CONN_01X02 J5
+L CONN_01X02 J5
 U 1 1 5924AA75
 P 7700 6100
 F 0 "J5" H 7700 6250 50  0000 C CNN
@@ -1083,7 +1090,7 @@ F 3 "" H 7700 6100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR043
+L GND #PWR043
 U 1 1 5924AB2E
 P 7800 5900
 F 0 "#PWR043" H 7800 5650 50  0001 C CNN
@@ -1108,7 +1115,7 @@ REFL_PWR
 Text Notes 2600 750  2    39   ~ 0
 TXRX_Status
 $Comp
-L Alexandrie-rescue:C C3
+L C C3
 U 1 1 5928D1F3
 P 3900 1100
 F 0 "C3" H 3925 1200 50  0000 L CNN
@@ -1119,7 +1126,7 @@ F 3 "" H 3900 1100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR044
+L GND #PWR044
 U 1 1 5928D1F9
 P 3900 1300
 F 0 "#PWR044" H 3900 1050 50  0001 C CNN
@@ -1130,7 +1137,7 @@ F 3 "" H 3900 1300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:CONN_01X06 J4
+L CONN_01X06 J4
 U 1 1 5928F83B
 P 1950 550
 F 0 "J4" H 1950 900 50  0000 C CNN
@@ -1141,7 +1148,7 @@ F 3 "" H 1950 550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR045
+L GND #PWR045
 U 1 1 5929164F
 P 3250 1400
 F 0 "#PWR045" H 3250 1150 50  0001 C CNN
@@ -1152,7 +1159,7 @@ F 3 "" H 3250 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:+12V #PWR046
+L +12V #PWR046
 U 1 1 59291655
 P 3050 1500
 F 0 "#PWR046" H 3050 1350 50  0001 C CNN
@@ -1173,7 +1180,7 @@ Text Notes 3550 1350 0    20   ~ 0
 Text Notes 3550 1650 0    20   ~ 0
 -->\nTX/RX\nRelay
 $Comp
-L tpic6b595:TPIC6B595 U3
+L TPIC6B595 U3
 U 1 1 592A0C33
 P 4750 1250
 F 0 "U3" H 4700 1550 20  0000 C CNN
@@ -1184,7 +1191,7 @@ F 3 "" H 4700 1200 20  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L tpic6b595:TPIC6B595 U6
+L TPIC6B595 U6
 U 1 1 592A2E3E
 P 4800 2800
 F 0 "U6" H 4750 3100 20  0000 C CNN
@@ -1197,7 +1204,7 @@ $EndComp
 NoConn ~ 5050 2400
 NoConn ~ 4550 2400
 $Comp
-L tpic6b595:TPIC6B595 U4
+L TPIC6B595 U4
 U 1 1 592A44F6
 P 4750 4850
 F 0 "U4" H 4700 5150 20  0000 C CNN
@@ -1210,7 +1217,7 @@ $EndComp
 NoConn ~ 5000 4450
 NoConn ~ 4500 4450
 $Comp
-L tpic6b595:TPIC6B595 U7
+L TPIC6B595 U7
 U 1 1 592A680C
 P 6000 4850
 F 0 "U7" H 5950 5150 20  0000 C CNN
@@ -1224,7 +1231,7 @@ NoConn ~ 5750 4450
 NoConn ~ 5000 850 
 NoConn ~ 4500 850 
 $Comp
-L Alexandrie-rescue:TEST TP1
+L TEST TP1
 U 1 1 592BBEFC
 P 7000 1000
 F 0 "TP1" H 7000 1300 50  0000 C BNN
@@ -1235,7 +1242,7 @@ F 3 "" H 7000 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:TEST TP2
+L TEST TP2
 U 1 1 592BBFC7
 P 7300 1000
 F 0 "TP2" H 7300 1300 50  0000 C BNN
@@ -1246,7 +1253,7 @@ F 3 "" H 7300 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR047
+L GND #PWR047
 U 1 1 592BC282
 P 7300 1050
 F 0 "#PWR047" H 7300 800 50  0001 C CNN
@@ -1257,7 +1264,7 @@ F 3 "" H 7300 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR048
+L GND #PWR048
 U 1 1 592BC2D8
 P 7000 1050
 F 0 "#PWR048" H 7000 800 50  0001 C CNN
@@ -1268,7 +1275,7 @@ F 3 "" H 7000 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:+12V #PWR049
+L +12V #PWR049
 U 1 1 592C4B6E
 P 7650 3950
 F 0 "#PWR049" H 7650 3800 50  0001 C CNN
@@ -1279,7 +1286,7 @@ F 3 "" H 7650 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 7805d-pack:7805D-Pack U12
+L 7805D-Pack U12
 U 1 1 592CBEF0
 P 7700 4900
 F 0 "U12" H 7850 4704 50  0000 C CNN
@@ -1290,7 +1297,7 @@ F 3 "" H 7700 4900 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:TEST TP3
+L TEST TP3
 U 1 1 592E5FB7
 P 8000 1000
 F 0 "TP3" H 8000 1300 50  0000 C BNN
@@ -1301,7 +1308,7 @@ F 3 "" H 8000 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:TEST TP4
+L TEST TP4
 U 1 1 592E5FBD
 P 8300 1000
 F 0 "TP4" H 8300 1300 50  0000 C BNN
@@ -1312,7 +1319,7 @@ F 3 "" H 8300 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR050
+L GND #PWR050
 U 1 1 592E5FC3
 P 8300 1050
 F 0 "#PWR050" H 8300 800 50  0001 C CNN
@@ -1323,7 +1330,7 @@ F 3 "" H 8300 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR051
+L GND #PWR051
 U 1 1 592E5FC9
 P 8000 1050
 F 0 "#PWR051" H 8000 800 50  0001 C CNN
@@ -1334,7 +1341,7 @@ F 3 "" H 8000 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:CONN_01X03 J11
+L CONN_01X03 J11
 U 1 1 592EBACE
 P 850 7100
 F 0 "J11" H 850 7300 50  0000 C CNN
@@ -1345,7 +1352,7 @@ F 3 "" H 850 7100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Alexandrie-rescue:+12V #PWR052
+L +12V #PWR052
 U 1 1 592EC4AF
 P 1400 7050
 F 0 "#PWR052" H 1400 6900 50  0001 C CNN
@@ -1356,7 +1363,7 @@ F 3 "" H 1400 7050 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR053
+L GND #PWR053
 U 1 1 592EC505
 P 1100 7200
 F 0 "#PWR053" H 1100 6950 50  0001 C CNN
@@ -1367,7 +1374,7 @@ F 3 "" H 1100 7200 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:D D9
+L D D9
 U 1 1 592ECDDA
 P 1200 7050
 F 0 "D9" H 1200 7150 50  0000 C CNN
@@ -1405,7 +1412,7 @@ RX3_IN
 Text GLabel 10400 3200 0    39   Input ~ 0
 RX_BYPASS_OUT
 $Comp
-L Alexandrie-rescue:+12V #PWR054
+L +12V #PWR054
 U 1 1 593686C0
 P 8600 1100
 F 0 "#PWR054" H 8600 950 50  0001 C CNN
@@ -1416,7 +1423,7 @@ F 3 "" H 8600 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Alexandrie-rescue:PWR_FLAG #FLG055
+L PWR_FLAG #FLG055
 U 1 1 593691D3
 P 8600 1050
 F 0 "#FLG055" H 8600 1125 50  0001 C CNN
@@ -1431,7 +1438,7 @@ vérifier validité de cette ligne sur 100D\n
 NoConn ~ 5050 3300
 NoConn ~ 6250 5350
 $Comp
-L Alexandrie-rescue:GND #PWR056
+L GND #PWR056
 U 1 1 593904C9
 P 10400 2800
 F 0 "#PWR056" H 10400 2550 50  0001 C CNN
@@ -1442,7 +1449,7 @@ F 3 "" H 10400 2800 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Alexandrie-rescue:+12V #PWR057
+L +12V #PWR057
 U 1 1 59395EA5
 P 10400 2700
 F 0 "#PWR057" H 10400 2550 50  0001 C CNN
@@ -1457,7 +1464,7 @@ Att_1\n
 Text Notes 10750 4400 0    39   ~ 0
 Att_2
 $Comp
-L Alexandrie-rescue:CONN_01X05 J3
+L CONN_01X05 J3
 U 1 1 5939C57F
 P 10650 3700
 F 0 "J3" H 10650 4000 50  0000 C CNN
@@ -1468,7 +1475,7 @@ F 3 "" H 10650 3700 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Alexandrie-rescue:GND #PWR058
+L GND #PWR058
 U 1 1 5939C585
 P 10400 3600
 F 0 "#PWR058" H 10400 3350 50  0001 C CNN
@@ -1479,7 +1486,7 @@ F 3 "" H 10400 3600 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Alexandrie-rescue:+12V #PWR059
+L +12V #PWR059
 U 1 1 5939C58B
 P 10400 3500
 F 0 "#PWR059" H 10400 3350 50  0001 C CNN
@@ -1506,7 +1513,7 @@ TX
 Text Notes 11000 2850 2    39   ~ 0
 RX_Ant\n
 $Comp
-L Alexandrie-rescue:+5V #PWR060
+L +5V #PWR060
 U 1 1 5939C38C
 P 7650 5700
 F 0 "#PWR060" H 7650 5550 50  0001 C CNN
@@ -1521,7 +1528,7 @@ TX_RX_RLY
 Text GLabel 5250 3000 2    39   Input ~ 0
 6m_Bypass
 $Comp
-L Alexandrie-rescue:GND #PWR061
+L GND #PWR061
 U 1 1 59411976
 P 10350 5100
 F 0 "#PWR061" H 10350 4850 50  0001 C CNN
@@ -1532,7 +1539,7 @@ F 3 "" H 10350 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Alexandrie-rescue:+5V #PWR062
+L +5V #PWR062
 U 1 1 593D3009
 P 1150 2200
 F 0 "#PWR062" H 1150 2050 50  0001 C CNN
@@ -1547,7 +1554,7 @@ Alexiares SPI decoder\nModular variable bandpass filter for Hermes/Angelia board
 Text Notes 10850 3600 0    39   ~ 0
 TX_Ant
 $Comp
-L Alexandrie-rescue:CONN_01X13 J6
+L CONN_01X13 J6
 U 1 1 593F22D4
 P 10650 4800
 F 0 "J6" H 10650 5500 50  0000 C CNN
@@ -1590,7 +1597,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 2550 1150 3400
 Wire Wire Line
-	1150 3400 1300 3400
+	1150 3400 2150 3400
 Wire Wire Line
 	1300 1200 1300 1900
 Wire Wire Line
@@ -1604,11 +1611,11 @@ Wire Wire Line
 Wire Wire Line
 	1050 1200 1300 1200
 Wire Wire Line
-	1700 750  1700 1200
+	1700 750  1700 1300
 Wire Wire Line
 	1700 1300 1050 1300
 Wire Wire Line
-	1800 750  1800 1300
+	1800 750  1800 1500
 Wire Wire Line
 	1800 1500 1050 1500
 Wire Wire Line
@@ -1616,7 +1623,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 750  2100 800 
 Wire Wire Line
-	2550 1650 2550 1700
+	2550 1650 2550 1800
 Wire Wire Line
 	2550 3850 2550 4050
 Wire Wire Line
@@ -1649,7 +1656,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 3400 1300 4700
 Wire Wire Line
-	2550 4450 2550 4500
+	2550 4450 2550 4600
 Wire Wire Line
 	2550 6650 2550 6850
 Wire Wire Line
@@ -1673,7 +1680,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 5150 4450 5150
 Wire Wire Line
-	4450 5150 4450 5250
+	4450 5150 4450 5400
 Wire Wire Line
 	4500 5250 4450 5250
 Connection ~ 4450 5250
@@ -1683,7 +1690,7 @@ Connection ~ 4450 5350
 Wire Wire Line
 	5750 5150 5700 5150
 Wire Wire Line
-	5700 5150 5700 5250
+	5700 5150 5700 5400
 Wire Wire Line
 	5750 5350 5700 5350
 Connection ~ 5700 5350
@@ -1691,14 +1698,14 @@ Wire Wire Line
 	5750 5250 5700 5250
 Connection ~ 5700 5250
 Wire Wire Line
-	4500 4300 4500 4350
+	4500 4300 4500 4550
 Wire Wire Line
 	4600 4350 4500 4350
 Connection ~ 4500 4350
 Wire Wire Line
 	4900 4350 4950 4350
 Wire Wire Line
-	5750 4250 5750 4350
+	5750 4250 5750 4550
 Wire Wire Line
 	5850 4350 5750 4350
 Connection ~ 5750 4350
@@ -1725,7 +1732,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 5050 5600 5350
 Wire Wire Line
-	5450 4250 5750 4250
+	5450 4250 6750 4250
 Wire Wire Line
 	5450 4550 5350 4550
 Wire Wire Line
@@ -1746,7 +1753,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 4750 5300 4750
 Wire Wire Line
-	3600 4750 4300 4750
+	3600 4750 4500 4750
 Wire Wire Line
 	5700 4650 5750 4650
 Wire Wire Line
@@ -1770,7 +1777,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 4950 4500 4950
 Wire Wire Line
-	5450 5850 4150 5850
+	5450 5850 3050 5850
 Wire Wire Line
 	3600 6200 3050 6200
 Connection ~ 4300 4750
@@ -1821,7 +1828,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 2700 5300 2700
 Wire Wire Line
-	4550 2250 4550 2300
+	4550 2250 4550 2500
 Wire Wire Line
 	4650 2300 4550 2300
 Connection ~ 4550 2300
@@ -1856,7 +1863,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 1550 4450 1550
 Wire Wire Line
-	4450 1550 4450 1650
+	4450 1550 4450 1800
 Wire Wire Line
 	4500 1650 4450 1650
 Connection ~ 4450 1650
@@ -1866,7 +1873,7 @@ Connection ~ 4450 1750
 Wire Wire Line
 	4550 3100 4500 3100
 Wire Wire Line
-	4500 3100 4500 3200
+	4500 3100 4500 3350
 Wire Wire Line
 	4550 3200 4500 3200
 Connection ~ 4500 3200
@@ -1906,7 +1913,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 1150 4050 1150
 Wire Wire Line
-	4050 1150 4050 2250
+	4050 1150 4050 2700
 Wire Wire Line
 	4050 2700 4550 2700
 Wire Wire Line
@@ -1917,7 +1924,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 1000 8850 1050
 Wire Wire Line
-	7650 3950 7650 4250
+	7650 3950 7650 4600
 Connection ~ 7650 4450
 Wire Wire Line
 	7950 4900 8000 4900
@@ -1926,7 +1933,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 5300 7850 5300
 Wire Wire Line
-	7650 5200 7650 5300
+	7650 5200 7650 5900
 Connection ~ 7650 5300
 Connection ~ 7650 5500
 Wire Wire Line
@@ -1943,13 +1950,13 @@ Connection ~ 7650 5700
 Wire Wire Line
 	3900 1250 3900 1300
 Wire Wire Line
-	3850 950  3900 950 
+	3850 950  4500 950 
 Wire Wire Line
 	5000 1150 5100 1150
 Wire Wire Line
 	5100 1150 5100 750 
 Wire Wire Line
-	5100 750  3550 750 
+	5100 750  2200 750 
 Connection ~ 3900 950 
 Wire Wire Line
 	3550 950  3550 750 
@@ -1979,7 +1986,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 7200 1100 7200
 Wire Wire Line
-	1050 7000 1050 7050
+	1050 7000 1050 7100
 Connection ~ 1050 7050
 Wire Wire Line
 	1350 7050 1400 7050
@@ -2024,7 +2031,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 3700 10450 3700
 Wire Wire Line
-	4200 1350 4200 2900
+	4200 1350 4200 3050
 Connection ~ 4150 5850
 Wire Wire Line
 	10450 4300 10400 4300
@@ -2050,7 +2057,7 @@ TX_RX_RLY
 Wire Wire Line
 	10450 3300 10200 3300
 $Comp
-L Alexandrie-rescue:Conn_01x07 J7
+L Conn_01x07 J7
 U 1 1 5A61D7BF
 P 10650 3000
 F 0 "J7" H 10650 3400 50  0000 C CNN
@@ -2068,64 +2075,4 @@ Text Notes 5300 4400 1    100  ~ 20
 Jaune
 Text Notes 6550 5800 1    100  ~ 20
 rouge\n
-Wire Wire Line
-	2550 1700 2550 1800
-Wire Wire Line
-	2550 4500 2550 4600
-Wire Wire Line
-	1300 3400 2150 3400
-Wire Wire Line
-	4450 5250 4450 5350
-Wire Wire Line
-	4450 5350 4450 5400
-Wire Wire Line
-	5700 5350 5700 5400
-Wire Wire Line
-	5700 5250 5700 5350
-Wire Wire Line
-	4500 4350 4500 4550
-Wire Wire Line
-	5750 4350 5750 4550
-Wire Wire Line
-	5750 4250 6750 4250
-Wire Wire Line
-	4300 4750 4500 4750
-Wire Wire Line
-	4550 2300 4550 2500
-Wire Wire Line
-	4450 1650 4450 1750
-Wire Wire Line
-	4450 1750 4450 1800
-Wire Wire Line
-	4500 3200 4500 3300
-Wire Wire Line
-	4500 3300 4500 3350
-Wire Wire Line
-	4050 2250 4050 2700
-Wire Wire Line
-	7650 4450 7650 4600
-Wire Wire Line
-	7650 5300 7650 5500
-Wire Wire Line
-	7650 5500 7650 5700
-Wire Wire Line
-	7650 5700 7650 5900
-Wire Wire Line
-	3900 950  4200 950 
-Wire Wire Line
-	3550 750  2200 750 
-Wire Wire Line
-	1700 1200 1700 1300
-Wire Wire Line
-	1800 1300 1800 1500
-Wire Wire Line
-	4200 950  4500 950 
-Wire Wire Line
-	7650 4250 7650 4450
-Wire Wire Line
-	1050 7050 1050 7100
-Wire Wire Line
-	4150 5850 3050 5850
-Wire Wire Line
-	4200 2900 4200 3050
 $EndSCHEMATC
