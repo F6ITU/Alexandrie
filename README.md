@@ -17,12 +17,12 @@ design was needed by many hams wishing to play with OpenHPSDR plateforms
 supporting Pavel Denim's firmware... ) 
 
 Alexandrie is only needed by people using an original 
-Hermes Board or a Red Pitaya (via the I2S output)
+Hermes Board or a Red Pitaya (via the SPI output)
 
 A specific replacement board (Alexi2C) has been design for 
 
- Hermes-Lite users (decimal output from FPGA)
- Red Pitaya owners using the I2C output
+ * Hermes-Lite users (decimal output from FPGA)
+*  Red Pitaya owners using the I2C output
 
 3D image of the board are stored on this repo
 

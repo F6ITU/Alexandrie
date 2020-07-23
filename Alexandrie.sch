@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Alexandrie-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1165,7 +1165,7 @@ $EndComp
 Text GLabel 3250 1600 0    39   Input ~ 0
 TX_RX_RLY
 Text Notes 3200 1850 0    39   ~ 8
-To\nVSWR/PS/TX-RX \nBoard
+To\nThemis\nBoard
 Text Notes 3550 1250 0    20   ~ 0
 <--\nFWD
 Text Notes 3550 1350 0    20   ~ 0
