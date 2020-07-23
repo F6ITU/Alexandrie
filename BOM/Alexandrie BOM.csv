@@ -1,0 +1,47 @@
+Component Count:,43,,,,
+Ref,Value,Footprint,Manufacturer,Vendor,Reference
+C1,100n,Capacitors_SMD:C_0805_HandSoldering,,,
+C2,100n,Capacitors_SMD:C_0805_HandSoldering,,,
+C3,100n,Capacitors_SMD:C_0805_HandSoldering,,,
+C4,100n,Capacitors_SMD:C_0805_HandSoldering,,,
+C6,100n,Capacitors_SMD:C_0805_HandSoldering,,,
+C7,100n,Capacitors_SMD:C_0805_HandSoldering,,,
+C16,100n,Capacitors_SMD:C_0805_HandSoldering,,,
+C17,10u,Capacitors_Tantalum_SMD Case-C_EIA-6032-28,,,
+C18,100n,Capacitors_SMD:C_0805_HandSoldering,,,
+C19,10u,Capacitors_Tantalum_SMD: Case-C_EIA-6032-28,,,
+C20,100n,Capacitors_SMD:C_0805_HandSoldering,,,
+D1,LED,smd_leds:Led_1206,,,
+D3,LED,smd_leds:Led_1206,,,
+D4,LED,smd_leds:Led_1206,,,
+D5,LED,smd_leds:Led_1206,,,
+D9,D,Diodes_SMD:D_SMB_Handsoldering,On Semiconductor ss24,Mouser,863-SS24T3G
+J1,kk_10,conn_kk100:kk100_22-23-2101,Molex KF2510,eBay,KF2510-10P
+J2,kk_5,conn_kk100:kk100_22-23-2051,Molex KF2510,eBay,KF2510-5P
+J3,kk_5,conn_kk100:kk100_22-23-2051,Molex KF2510,eBay,KF2510-5P
+J4,CONN_01X06,conn_kk100:kk100_22-23-2061,Molex KF2510,eBay,KF2510-6P
+J5,CONN_01X02,conn_kk100:kk100_22-23-2021,Molex KF2510,eBay,KF2510-2P
+J6,CONN_01X13,conn_kk100:kk100_22-23-2131,Molex KF2510,eBay,KF2510-13P
+J7,Conn_01x07,Connectors_Molex:Molex_KK-6410-07_07x2.54mm_Straight,Molex KF2510,eBay,KF2510-7P
+J8,kk_10,conn_kk100:kk100_22-23-2101,Molex KF2510,eBay,KF2510-10P
+J11,CONN_01X03,conn_kk100:kk100_22-23-2031,Molex KF2510,eBay,KF2510-13P
+R1,10k,Resistors_SMD:R_0805_HandSoldering,,,
+R2,10k,Resistors_SMD:R_0805_HandSoldering,,,
+R3,10k,Resistors_SMD:R_0805_HandSoldering,,,
+R4,10k,Resistors_SMD:R_0805_HandSoldering,,,
+R5,10k,Resistors_SMD:R_0805_HandSoldering,,,
+R6,10k,Resistors_SMD:R_0805_HandSoldering,,,
+R7,4k7,Resistors_SMD:R_0805_HandSoldering,,,
+R8,1k2,Resistors_SMD:R_0805_HandSoldering,,,
+R10,1k2,Resistors_SMD:R_0805_HandSoldering,,,
+R11,1k2,Resistors_SMD:R_0805_HandSoldering,,,
+R12,1k2,Resistors_SMD:R_0805_HandSoldering,,,
+U1,74HCT04,Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm,,Mouser,MC74HCT04ADR2G
+U2,74HCT04,Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm,,Mouser,MC74HCT04ADR2G
+U3,TPIC6B595,Housings_SOIC:SO-20_12.8x7.5mm_Pitch1.27mm,,Mouser,595-TPIC6B595DWR
+U4,TPIC6B595,Housings_SOIC:SO-20_12.8x7.5mm_Pitch1.27mm,,Mouser,595-TPIC6B595DWR
+U6,TPIC6B595,Housings_SOIC:SO-20_12.8x7.5mm_Pitch1.27mm,,Mouser,595-TPIC6B595DWR
+U7,TPIC6B595,Housings_SOIC:SO-20_12.8x7.5mm_Pitch1.27mm,,Mouser,595-TPIC6B595DWR
+U12,78M05 Dpak,TO_SOT_Packages_SMD:TO-263-3_TabPin4,,Mouser,863-NCV78M05BDTRKG
+,,,,,
+"Les composants ""ancilaires"" (condensateurs de découplage, résistances,LED) ne nécessitent aucun précaution particulière",,,,,
