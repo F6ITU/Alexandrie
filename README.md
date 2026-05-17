@@ -1,12 +1,12 @@
 # Alexandrie
 
+
+  **Pour plus d'informations, consultez le Wiki associé à cette page**
+  **For more information, see the Wiki associated with this page**
+  
 Kicad files
 
 Control board for Alexiares filter set
-
-THIS PROJECT IS DEPRECATED.
-
-PSE USE ALEXV2 INSTEAD 5https://github.com/F6ITU/AlexV2°
 
 This work is protected by the TAPR Open Hardware Licence https://www.tapr.org/ohl.html
 
